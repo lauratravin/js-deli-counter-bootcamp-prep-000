@@ -30,7 +30,7 @@ function currentLine(line){
 
         }
 
-        return  text;
+        return  text.slice(0,-2);
     } else {
        return `The line is currently empty.`;
 
