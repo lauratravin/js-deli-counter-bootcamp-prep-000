@@ -23,7 +23,7 @@ function nowServing(katzDeliLine){
 function currentLine(line){
     var text;
     if (line.length>0){
-        for(i = 0; i < line.length; i++){
+        for(var i = 0; i < line.length; i++){
 
            text = text + (i+1) + '. ' + line[i] + ', ';
 
