@@ -29,7 +29,7 @@ function currentLine(line){
 
         }
 
-        return 'The line is currently: ${text}';
+        return 'The line is currently:'+ text;
     } else {
        return `The line is currently empty.`;
 
