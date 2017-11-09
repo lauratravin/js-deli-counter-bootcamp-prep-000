@@ -26,7 +26,7 @@ function currentLine(line){
       //  text = (i+1) + '. ' + line[i] + ', ';
         for(var i = 0; i < line.length; i++){
 
-           text = text + ' ' + (i+1) + '. ' + line[i] + ', ';
+           text = text + ' ' + (i+1) + '. ' + line[i] + ',  ';
 
         }
 
