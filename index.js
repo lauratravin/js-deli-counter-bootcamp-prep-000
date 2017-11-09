@@ -26,12 +26,12 @@ function currentLine(line){
         for (i = 0, i < line.length, i++){
 
            text = text + (i+1)+ '. '+line[i] +', ';
-          
+
         }
 
         return 'The line is currently: ${text}';
     } else {
        return `The line is currently empty.`;
-      
+
     }
 }
